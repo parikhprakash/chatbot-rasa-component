@@ -1,0 +1,541 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:query_db
+ - what is the [max](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - what is the [mean](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - what is the [min](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - what is the [sum](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - what is the [max](agg) of [pay](metric) by [Director of Operations](position)?
+ - what is the [mean](agg) of [pay](metric) by [Director of Operations](position)?
+ - what is the [min](agg) of [pay](metric) by [Director of Operations](position)?
+ - what is the [sum](agg) of [pay](metric) by [Director of Operations](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - what is the [max](agg) of [pay](metric) by [BI Developer](position)?
+ - what is the [mean](agg) of [pay](metric) by [BI Developer](position)?
+ - what is the [min](agg) of [pay](metric) by [BI Developer](position)?
+ - what is the [sum](agg) of [pay](metric) by [BI Developer](position)?
+ - what is the [max](agg) of [eng_score](metric) by [BI Developer](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [BI Developer](position)?
+ - what is the [min](agg) of [eng_score](metric) by [BI Developer](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [BI Developer](position)?
+ - what is the [max](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - what is the [mean](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - what is the [min](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - what is the [sum](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - what is the [max](agg) of [pay](metric) by [Software Engineer](position)?
+ - what is the [mean](agg) of [pay](metric) by [Software Engineer](position)?
+ - what is the [min](agg) of [pay](metric) by [Software Engineer](position)?
+ - what is the [sum](agg) of [pay](metric) by [Software Engineer](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - what is the [max](agg) of [pay](metric) by [Sales Manager](position)?
+ - what is the [mean](agg) of [pay](metric) by [Sales Manager](position)?
+ - what is the [min](agg) of [pay](metric) by [Sales Manager](position)?
+ - what is the [sum](agg) of [pay](metric) by [Sales Manager](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - what is the [max](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - what is the [mean](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - what is the [min](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - what is the [sum](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - what is the [max](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - what is the [mean](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - what is the [min](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - what is the [sum](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - what is the [max](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - what is the [min](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - what is the [max](agg) of [pay](metric) by [Data Analyst](position)?
+ - what is the [mean](agg) of [pay](metric) by [Data Analyst](position)?
+ - what is the [min](agg) of [pay](metric) by [Data Analyst](position)?
+ - what is the [sum](agg) of [pay](metric) by [Data Analyst](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - what is the [max](agg) of [pay](metric) by [Sr. DBA](position)?
+ - what is the [mean](agg) of [pay](metric) by [Sr. DBA](position)?
+ - what is the [min](agg) of [pay](metric) by [Sr. DBA](position)?
+ - what is the [sum](agg) of [pay](metric) by [Sr. DBA](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - what is the [max](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - what is the [mean](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - what is the [min](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - what is the [sum](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - what is the [max](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - what is the [mean](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - what is the [min](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - what is the [sum](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - what is the [max](agg) of [pay](metric) by [Production Manager](position)?
+ - what is the [mean](agg) of [pay](metric) by [Production Manager](position)?
+ - what is the [min](agg) of [pay](metric) by [Production Manager](position)?
+ - what is the [sum](agg) of [pay](metric) by [Production Manager](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Production Manager](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Production Manager](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Production Manager](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Production Manager](position)?
+ - what is the [max](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - what is the [mean](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - what is the [min](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - what is the [sum](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - what is the [max](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - what is the [min](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - what is the [max](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - what is the [mean](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - what is the [min](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - what is the [sum](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - what is the [max](agg) of [pay](metric) by [Production Technician II](position)?
+ - what is the [mean](agg) of [pay](metric) by [Production Technician II](position)?
+ - what is the [min](agg) of [pay](metric) by [Production Technician II](position)?
+ - what is the [sum](agg) of [pay](metric) by [Production Technician II](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - what is the [max](agg) of [pay](metric) by [CIO](position)?
+ - what is the [mean](agg) of [pay](metric) by [CIO](position)?
+ - what is the [min](agg) of [pay](metric) by [CIO](position)?
+ - what is the [sum](agg) of [pay](metric) by [CIO](position)?
+ - what is the [max](agg) of [eng_score](metric) by [CIO](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [CIO](position)?
+ - what is the [min](agg) of [eng_score](metric) by [CIO](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [CIO](position)?
+ - what is the [max](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - what is the [mean](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - what is the [min](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - what is the [sum](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - what is the [max](agg) of [pay](metric) by [Network Engineer](position)?
+ - what is the [mean](agg) of [pay](metric) by [Network Engineer](position)?
+ - what is the [min](agg) of [pay](metric) by [Network Engineer](position)?
+ - what is the [sum](agg) of [pay](metric) by [Network Engineer](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - what is the [max](agg) of [pay](metric) by [Data Analyst ](position)?
+ - what is the [mean](agg) of [pay](metric) by [Data Analyst ](position)?
+ - what is the [min](agg) of [pay](metric) by [Data Analyst ](position)?
+ - what is the [sum](agg) of [pay](metric) by [Data Analyst ](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - what is the [max](agg) of [pay](metric) by [Accountant I](position)?
+ - what is the [mean](agg) of [pay](metric) by [Accountant I](position)?
+ - what is the [min](agg) of [pay](metric) by [Accountant I](position)?
+ - what is the [sum](agg) of [pay](metric) by [Accountant I](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Accountant I](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Accountant I](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Accountant I](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Accountant I](position)?
+ - what is the [max](agg) of [pay](metric) by [Database Administrator](position)?
+ - what is the [mean](agg) of [pay](metric) by [Database Administrator](position)?
+ - what is the [min](agg) of [pay](metric) by [Database Administrator](position)?
+ - what is the [sum](agg) of [pay](metric) by [Database Administrator](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - what is the [max](agg) of [pay](metric) by [Production Technician I](position)?
+ - what is the [mean](agg) of [pay](metric) by [Production Technician I](position)?
+ - what is the [min](agg) of [pay](metric) by [Production Technician I](position)?
+ - what is the [sum](agg) of [pay](metric) by [Production Technician I](position)?
+ - what is the [max](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - what is the [min](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - what is the [max](agg) of [pay](metric) by [IT Director](position)?
+ - what is the [mean](agg) of [pay](metric) by [IT Director](position)?
+ - what is the [min](agg) of [pay](metric) by [IT Director](position)?
+ - what is the [sum](agg) of [pay](metric) by [IT Director](position)?
+ - what is the [max](agg) of [eng_score](metric) by [IT Director](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [IT Director](position)?
+ - what is the [min](agg) of [eng_score](metric) by [IT Director](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [IT Director](position)?
+ - what is the [max](agg) of [pay](metric) by [BI Director](position)?
+ - what is the [mean](agg) of [pay](metric) by [BI Director](position)?
+ - what is the [min](agg) of [pay](metric) by [BI Director](position)?
+ - what is the [sum](agg) of [pay](metric) by [BI Director](position)?
+ - what is the [max](agg) of [eng_score](metric) by [BI Director](position)?
+ - what is the [mean](agg) of [eng_score](metric) by [BI Director](position)?
+ - what is the [min](agg) of [eng_score](metric) by [BI Director](position)?
+ - what is the [sum](agg) of [eng_score](metric) by [BI Director](position)?
+ - what is the [max](agg) of [pay](metric) by [Admin Offices](dept)?
+ - what is the [mean](agg) of [pay](metric) by [Admin Offices](dept)?
+ - what is the [min](agg) of [pay](metric) by [Admin Offices](dept)?
+ - what is the [sum](agg) of [pay](metric) by [Admin Offices](dept)?
+ - what is the [max](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - what is the [mean](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - what is the [min](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - what is the [sum](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - what is the [max](agg) of [pay](metric) by [Software Engineering](dept)?
+ - what is the [mean](agg) of [pay](metric) by [Software Engineering](dept)?
+ - what is the [min](agg) of [pay](metric) by [Software Engineering](dept)?
+ - what is the [sum](agg) of [pay](metric) by [Software Engineering](dept)?
+ - what is the [max](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - what is the [mean](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - what is the [min](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - what is the [sum](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - what is the [max](agg) of [pay](metric) by [Sales](dept)?
+ - what is the [mean](agg) of [pay](metric) by [Sales](dept)?
+ - what is the [min](agg) of [pay](metric) by [Sales](dept)?
+ - what is the [sum](agg) of [pay](metric) by [Sales](dept)?
+ - what is the [max](agg) of [eng_score](metric) by [Sales](dept)?
+ - what is the [mean](agg) of [eng_score](metric) by [Sales](dept)?
+ - what is the [min](agg) of [eng_score](metric) by [Sales](dept)?
+ - what is the [sum](agg) of [eng_score](metric) by [Sales](dept)?
+ - what is the [max](agg) of [pay](metric) by [Production       ](dept)?
+ - what is the [mean](agg) of [pay](metric) by [Production       ](dept)?
+ - what is the [min](agg) of [pay](metric) by [Production       ](dept)?
+ - what is the [sum](agg) of [pay](metric) by [Production       ](dept)?
+ - what is the [max](agg) of [eng_score](metric) by [Production       ](dept)?
+ - what is the [mean](agg) of [eng_score](metric) by [Production       ](dept)?
+ - what is the [min](agg) of [eng_score](metric) by [Production       ](dept)?
+ - what is the [sum](agg) of [eng_score](metric) by [Production       ](dept)?
+ - can you give me [max](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - can you give me [min](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Senior BI Developer](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Senior BI Developer](position)?
+ - can you give me [max](agg) of [pay](metric) by [Director of Operations](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Director of Operations](position)?
+ - can you give me [min](agg) of [pay](metric) by [Director of Operations](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Director of Operations](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Director of Operations](position)?
+ - can you give me [max](agg) of [pay](metric) by [BI Developer](position)?
+ - can you give me [mean](agg) of [pay](metric) by [BI Developer](position)?
+ - can you give me [min](agg) of [pay](metric) by [BI Developer](position)?
+ - can you give me [sum](agg) of [pay](metric) by [BI Developer](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [BI Developer](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [BI Developer](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [BI Developer](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [BI Developer](position)?
+ - can you give me [max](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - can you give me [min](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Software Engineering Manager](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Software Engineering Manager](position)?
+ - can you give me [max](agg) of [pay](metric) by [Software Engineer](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Software Engineer](position)?
+ - can you give me [min](agg) of [pay](metric) by [Software Engineer](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Software Engineer](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Software Engineer](position)?
+ - can you give me [max](agg) of [pay](metric) by [Sales Manager](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Sales Manager](position)?
+ - can you give me [min](agg) of [pay](metric) by [Sales Manager](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Sales Manager](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Sales Manager](position)?
+ - can you give me [max](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - can you give me [min](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Principal Data Architect](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Principal Data Architect](position)?
+ - can you give me [max](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - can you give me [mean](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - can you give me [min](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - can you give me [sum](agg) of [pay](metric) by [IT Manager - Support](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [IT Manager - Support](position)?
+ - can you give me [max](agg) of [pay](metric) by [Data Analyst](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Data Analyst](position)?
+ - can you give me [min](agg) of [pay](metric) by [Data Analyst](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Data Analyst](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Data Analyst](position)?
+ - can you give me [max](agg) of [pay](metric) by [Sr. DBA](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Sr. DBA](position)?
+ - can you give me [min](agg) of [pay](metric) by [Sr. DBA](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Sr. DBA](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Sr. DBA](position)?
+ - can you give me [max](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - can you give me [min](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Administrative Assistant](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Administrative Assistant](position)?
+ - can you give me [max](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - can you give me [min](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Enterprise Architect](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Enterprise Architect](position)?
+ - can you give me [max](agg) of [pay](metric) by [Production Manager](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Production Manager](position)?
+ - can you give me [min](agg) of [pay](metric) by [Production Manager](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Production Manager](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Production Manager](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Production Manager](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Production Manager](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Production Manager](position)?
+ - can you give me [max](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - can you give me [mean](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - can you give me [min](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - can you give me [sum](agg) of [pay](metric) by [IT Manager - Infra](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [IT Manager - Infra](position)?
+ - can you give me [max](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - can you give me [min](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Shared Services Manager](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Shared Services Manager](position)?
+ - can you give me [max](agg) of [pay](metric) by [Production Technician II](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Production Technician II](position)?
+ - can you give me [min](agg) of [pay](metric) by [Production Technician II](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Production Technician II](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Production Technician II](position)?
+ - can you give me [max](agg) of [pay](metric) by [CIO](position)?
+ - can you give me [mean](agg) of [pay](metric) by [CIO](position)?
+ - can you give me [min](agg) of [pay](metric) by [CIO](position)?
+ - can you give me [sum](agg) of [pay](metric) by [CIO](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [CIO](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [CIO](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [CIO](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [CIO](position)?
+ - can you give me [max](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - can you give me [min](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Sr. Network Engineer](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Sr. Network Engineer](position)?
+ - can you give me [max](agg) of [pay](metric) by [Network Engineer](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Network Engineer](position)?
+ - can you give me [min](agg) of [pay](metric) by [Network Engineer](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Network Engineer](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Network Engineer](position)?
+ - can you give me [max](agg) of [pay](metric) by [Data Analyst ](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Data Analyst ](position)?
+ - can you give me [min](agg) of [pay](metric) by [Data Analyst ](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Data Analyst ](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Data Analyst ](position)?
+ - can you give me [max](agg) of [pay](metric) by [Accountant I](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Accountant I](position)?
+ - can you give me [min](agg) of [pay](metric) by [Accountant I](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Accountant I](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Accountant I](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Accountant I](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Accountant I](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Accountant I](position)?
+ - can you give me [max](agg) of [pay](metric) by [Database Administrator](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Database Administrator](position)?
+ - can you give me [min](agg) of [pay](metric) by [Database Administrator](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Database Administrator](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Database Administrator](position)?
+ - can you give me [max](agg) of [pay](metric) by [Production Technician I](position)?
+ - can you give me [mean](agg) of [pay](metric) by [Production Technician I](position)?
+ - can you give me [min](agg) of [pay](metric) by [Production Technician I](position)?
+ - can you give me [sum](agg) of [pay](metric) by [Production Technician I](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Production Technician I](position)?
+ - can you give me [max](agg) of [pay](metric) by [IT Director](position)?
+ - can you give me [mean](agg) of [pay](metric) by [IT Director](position)?
+ - can you give me [min](agg) of [pay](metric) by [IT Director](position)?
+ - can you give me [sum](agg) of [pay](metric) by [IT Director](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [IT Director](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [IT Director](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [IT Director](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [IT Director](position)?
+ - can you give me [max](agg) of [pay](metric) by [BI Director](position)?
+ - can you give me [mean](agg) of [pay](metric) by [BI Director](position)?
+ - can you give me [min](agg) of [pay](metric) by [BI Director](position)?
+ - can you give me [sum](agg) of [pay](metric) by [BI Director](position)?
+ - can you give me [max](agg) of [eng_score](metric) by [BI Director](position)?
+ - can you give me [mean](agg) of [eng_score](metric) by [BI Director](position)?
+ - can you give me [min](agg) of [eng_score](metric) by [BI Director](position)?
+ - can you give me [sum](agg) of [eng_score](metric) by [BI Director](position)?
+ - can you give me [max](agg) of [pay](metric) by [Admin Offices](dept)?
+ - can you give me [mean](agg) of [pay](metric) by [Admin Offices](dept)?
+ - can you give me [min](agg) of [pay](metric) by [Admin Offices](dept)?
+ - can you give me [sum](agg) of [pay](metric) by [Admin Offices](dept)?
+ - can you give me [max](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - can you give me [min](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Admin Offices](dept)?
+ - can you give me [max](agg) of [pay](metric) by [Software Engineering](dept)?
+ - can you give me [mean](agg) of [pay](metric) by [Software Engineering](dept)?
+ - can you give me [min](agg) of [pay](metric) by [Software Engineering](dept)?
+ - can you give me [sum](agg) of [pay](metric) by [Software Engineering](dept)?
+ - can you give me [max](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - can you give me [min](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Software Engineering](dept)?
+ - can you give me [max](agg) of [pay](metric) by [Sales](dept)?
+ - can you give me [mean](agg) of [pay](metric) by [Sales](dept)?
+ - can you give me [min](agg) of [pay](metric) by [Sales](dept)?
+ - can you give me [sum](agg) of [pay](metric) by [Sales](dept)?
+ - can you give me [max](agg) of [eng_score](metric) by [Sales](dept)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Sales](dept)?
+ - can you give me [min](agg) of [eng_score](metric) by [Sales](dept)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Sales](dept)?
+ - can you give me [max](agg) of [pay](metric) by [Production       ](dept)?
+ - can you give me [mean](agg) of [pay](metric) by [Production       ](dept)?
+ - can you give me [min](agg) of [pay](metric) by [Production       ](dept)?
+ - can you give me [sum](agg) of [pay](metric) by [Production       ](dept)?
+ - can you give me [max](agg) of [eng_score](metric) by [Production       ](dept)?
+ - can you give me [mean](agg) of [eng_score](metric) by [Production       ](dept)?
+ - can you give me [min](agg) of [eng_score](metric) by [Production       ](dept)?
+ - can you give me [sum](agg) of [eng_score](metric) by [Production       ](dept)?
+## synonym:max
+- maximum
+- highest
+- top
+
+## synonym:mean
+- avg
+- average
+
+## synonym:min
+- minimum
+- lowest
+- least
+- bottom
+
+## synonym:sum
+- total
+- summmation
+
